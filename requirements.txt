@@ -1,6 +1,7 @@
-feedparser
+feedparser==6.0.10
 googletrans==4.0.0-rc1
-transformers
-gtts
-pillow
-requests
+transformers==4.35.2
+torch==2.1.0
+gtts==2.4.0
+pillow==10.0.1
+requests==2.31.0
