@@ -1,0 +1,8 @@
+services:
+  - type: worker
+    name: news-bot
+    runtime: python
+    plan: free
+    autoDeploy: true
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: python news_bot_discord_only.py
