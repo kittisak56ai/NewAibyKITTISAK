@@ -1,7 +1,7 @@
 feedparser==6.0.10
 googletrans==4.0.0-rc1
 transformers==4.20.1
-torch==1.11.0
+torch==1.11.0+cpu
 gtts==2.3.2
 pillow==9.5.0
 requests==2.28.2
